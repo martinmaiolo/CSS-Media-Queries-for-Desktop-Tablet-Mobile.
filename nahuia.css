@@ -1,0 +1,569 @@
+/* Modificaciones Nahuai Badiola
+---------------------------------------------------------------------------- */
+/* Estilos Generales */
+.nb-center {
+	display: flex;
+	justify-content: center;
+}
+
+.boxed-title,
+h1.boxed-title {
+	color: #212121 !important;
+	background-color: rgb(1, 201, 125,0.95);
+    padding: 40px 40px 10px;
+    max-width: 800px
+}
+
+.no-padding-top .site-inner {
+	padding-top: 0px;
+}
+
+.no-padding-top h2 {
+	padding-top: 20px;
+}
+
+.green-solid-border {
+	padding: 40px 40px 10px;
+	border: 1px solid #01C97D;
+}
+
+.wp-block-button {
+	padding: 10px 0;
+}
+
+#cn-accept-cookie,
+#cn-more-info {
+	color:#000;
+}
+
+textarea {
+	border: 2px solid #ddd;
+	box-shadow: none;
+}
+
+/* Rejilla de artÃ­culos */
+@media only screen and (min-width: 960px) {
+	.entry-wrapper {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+	}
+
+	.entry-wrapper .post,
+	.entry-wrapper .entry  {
+		flex-basis: calc(50% - 20px);
+	}
+}
+
+.blog .pagination,
+.archive .pagination {
+	margin-top: -50px; 
+}
+
+.blog .archive-title,
+.archive-title {
+	font-size: 50px;
+	text-transform: uppercase;
+	text-align: center;
+}
+@media only screen and (max-width: 640px) {
+	.blog .archive-title, .archive-title {
+		font-size: 36px;
+	}
+}
+
+/* Estilos lista checklist 
+--------------------------------------------- */
+.nb-checklist li:before {
+    content: "\f147";
+	display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 20px/1 'dashicons';
+	color: #01C97D;
+	margin-right: 10px;
+	word-wrap: break-word;
+}
+
+.no-list-style-size ul > li {
+	list-style-type: none;
+	text-indent: -1em;
+}
+
+/* Home */
+.home .fas,
+.page-id-4616 .fas {
+	font-size: 90px;
+	padding-bottom: 20px;
+}
+
+.home-services {
+	text-align: center;
+}
+
+.home-hero {
+	padding-top: 20px;
+	background-color: #fff;
+}
+
+.home-hero h2 {
+    font-weight: 400;
+    max-width: 850px;
+}
+
+@media only screen and (min-width: 960px) {
+	h1.boxed-title,
+    .boxed-title h1,
+    .home-hero h1 {
+		font-size: 56px;
+	}
+    
+    .boxed-title h2,
+    .home-hero h2 {
+		font-size: 36px;
+	}
+	
+	.box-padding {
+		padding: 20px 40px 10px;
+	}
+	
+	.home-hero .wp-block-columns {
+        margin-top: 70px;
+    }
+}
+
+@media only screen and (min-width: 580px) {
+	.home-hero.home-hero.wp-block-cover.has-background-dim.has-background-dim:not(.has-background-gradient):before {
+		opacity: .0;
+	}
+	
+		.page-id-4616 .wp-block-cover.has-background-dim:not([class*=-background-color]) {
+	    background-color: transparent;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+    .home-hero.home-hero h1,
+    .home-hero.home-hero h2{
+        color:#fff;
+    }
+    .site-header {
+		padding: 0 10px;
+	}
+
+    .home-hero .wp-block-columns {
+        margin-top: 25px;
+        padding: 0 10px;
+    }
+
+}
+
+.box-padding {
+	padding: 10px 15px;
+}
+
+@media only screen and (min-width: 670px) and (max-width: 960px)  {
+	.box-padding .wp-block-column:first-child {
+		margin-right: 10px;
+	}
+}
+
+/*.consultoria h1.boxed-title {
+	font-size: 50px;
+	color: #212121;
+} */
+
+/*Consultoria y Desarrollo y Contacto*/
+.page-id-4619 h1.boxed-title,
+.page-id-4621 h1.boxed-title {
+	padding: 20px 40px 40px;
+}
+
+.page-id-4635 h1.boxed-title {
+	padding: 20px 30px 30px;
+}
+
+.dev-features .wp-block-column {
+    background-color: #f5f5f5;
+    padding: 30px 10px 0;
+}
+
+/* Arreglar 3 columnas en Desarrollo */
+@media only screen and (min-width: 782px) {
+	.page-id-4621 .wp-block-column[style] {
+		flex-grow: 1;
+		padding: 20px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.dev-hero .wp-block-cover__inner-container,
+	.about-hero .wp-block-cover__inner-container {
+		margin-top: 150px;
+	}
+	
+	.page-id-4619 h1.boxed-title {
+		padding: 20px 15px 30px;
+		margin-top: 250px;
+	}
+	
+	.page-id-4619 .wp-block-cover__inner-container {
+		width: 100%;
+	}
+	
+	.about-grid-1.wp-block-columns {
+		margin-bottom: 0px;
+	}
+	
+	.about-grid-1 .green-solid-border,
+	.about-grid-2 .green-solid-border {
+		margin: 0 0 40px;
+	}
+	
+	.page-id-4635 h1.boxed-title {
+		text-align: center;
+	}
+	
+	.dev-features .wp-block-column {
+        margin: 20px 0 0;
+    }
+}
+
+.about-grid-1.about-grid-1.about-grid-1 {
+    margin-bottom: 20px;
+}
+
+.about-grid-1.wp-block-button {
+    margin-bottom: 30px;
+}
+
+.workflow-consultoria {
+    padding: 40px 0 10px;
+    margin: 60px 0 45px;
+	border: 1px solid #01C97D;
+}
+
+.workflow-consultoria h2 {
+    padding-bottom: 30px;
+}
+
+.workflow-consultoria .fa-long-arrow-alt-down {
+	display: block;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.page-id-4320 .site-header,
+.page-id-4320 .footer-widgets {
+	display: none;
+}
+
+.site-container .wp-block-button .wp-block-button__link.wp-block-button__link {
+	font-size: 16px;
+	font-family: "Nunito", sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 0 !important;
+}
+
+/* Porfolio */
+.page-id-4638 h1.entry-title {
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+.page-id-4638 .wp-block-image img {
+	padding-top: 20px;
+}
+
+/* Estilos formularios Gravity Forms
+--------------------------------------------- */
+.gform_body.gform_body a:hover {
+    color: #000;
+}
+
+/* Estilos CSS del formulario GF LM OI ID6*/
+body #gform_wrapper_6 {
+	background-color:#d6d6d6 ;
+	padding: 10px 10px 10px 20px;  
+	border-width:0px ;
+	border-radius:5px ;
+	-web-border-radius:5px ;
+	-moz-border-radius:5px ;
+	background-color:rgba(214,214,214,1)
+}
+
+#label_6_3_1 {
+    color: black;
+}
+
+#label_6_3_1 a:hover {
+    color: #fff;
+}
+#choice_6_3_1 {
+    margin: 0px;
+}
+
+.gform_wrapper h3 {
+    color: #525252;
+}
+
+@media only screen and (min-width: 640px) {
+	body #gform_wrapper_6 {
+	    position: relative;
+	}
+}
+
+@media only screen and (min-width: 640px) {
+	body #gform_wrapper_6 .gform_footer {
+	    width: auto;
+	    position: absolute;
+	    top: 47px;
+	    left: 66%;
+	    padding: 0;
+	    margin: 0;
+	}
+}
+
+@media only screen and (min-width: 640px) {
+	body #gform_wrapper_6 .gform_footer input[type="submit"] {
+	    padding: 8px 25px 8px 25px  ;
+	    border-width: 0px;
+	    border-radius: 0;
+	}
+}
+
+#gform_confirmation_message_6 {
+	padding: 5%;
+	color:#fff;
+}
+
+/* Estilos CSS del formulario GF Checklist conversiÃ³n web */
+.gf-checklist_wrapper .gform_body,
+.gf-lm-optimizar-inline .gform_body,
+.gf-subscribe .gform_body,
+.gf-subscribe-wp .gform_body,
+.gf-subscribe-wp_wrapper {
+	background-color:#fff; 
+	padding:10px 20px 10px 30px;
+	border-width:0px;
+	border-radius:5px;
+}
+
+.gf-checklist .gfield label,
+.gf-lm-optimizar-inline .gfield label
+.gf-subscribe .gfield label,
+.gf-subscribe-wp .gform_body {
+    color: black;
+}
+
+.gf-checklist a:hover,
+.gf-lm-optimizar-inline a:hover,
+.gf-subscribe a:hover,
+.gf-subscribe-wp a:hover {
+    color: #fff;
+}
+
+.gf-checklist .gfield_checkbox li input[type=checkbox] {
+    margin: 0px;
+}
+
+@media only screen and (min-width: 640px) {	
+	body .gf-checklist_wrapper,
+	body .gf-lm-optimizar-inline_wrapper,
+	body .gf-subscribe_wrapper {
+    position: relative;
+	}
+	
+}
+
+@media only screen and (min-width: 640px) {	
+	.gf-checklist .gform_footer,
+	.gf-subscribe .gform_footer {
+    	width: auto;
+		position: absolute;
+		top: 127px;
+		left: 66%;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.gf-checklist .gform_footer {
+        top: 77px;
+    }
+	
+	body #gform_wrapper_8 .gform_footer input[type="submit"],
+	body #gform_wrapper_16 .gform_footer input[type="submit"],
+	body #gform_wrapper_17 .gform_footer input[type="submit"] {
+	    padding: 8px 25px 8px 25px  ;
+	    border-width: 0px;
+	    border-radius: 0;
+	}
+	
+	.gform_validation_error .gf-checklist .gform_footer,
+	.gform_validation_error .gf-subscribe .gform_footer {
+    	top: 159px;
+	}
+}
+
+@media only screen and (min-width: 640px) {
+	.gf-checklist .gform_footer input[type="submit"],
+	.gf-lm-optimizar-inline .gform_footer input[type="submit"],
+	.gf-subscribe .gform_footer input[type="submit"]{
+    	padding:5px 50px 5px 50px  ;
+		border-width: 0px;
+	}
+}
+
+.gf-checklist .gform_confirmation_message,
+.gf-lm-optimizar-inline .gform_confirmation_message,
+.gf-subscribe .gform_confirmation_message {
+	padding: 5%;
+	background-color: #fff;
+	margin-bottom: 5%;
+}
+
+/* Estilos CSS del formulario GF LM Optimizar inline */
+@media only screen and (min-width: 640px) {
+	.gf-lm-optimizar-inline .gform_footer {
+    	width: auto;
+		position: absolute;
+		top: 110px;
+		left: 66%;
+		padding: 0;
+		margin: 0;
+	}	
+	.gform_validation_error .gf-lm-optimizar-inline .gform_footer {
+    	top: 187px;
+	}	
+}
+
+.gform_button.gform_button {
+    background-color: #01C97D;
+    border-radius: 0;
+}
+
+.gform_button.gform_button:hover {
+    background-color: rgb(1, 201, 125,0.95);
+}
+
+.gf-subscribe-wp.gf-subscribe-wp .gform_wrapper .gform_footer input.button,
+#gform_submit_button_22 {
+    width: calc(100% - 16px);
+}
+
+#choice_22_3_1 {
+	margin-top: -2px;
+}
+
+/* Estilos CSS del apartado RGPD en formularios GF */
+.nb_gf_rgpd {
+  font-size:12px !important;
+  color: #a3a3a3;
+}
+
+.nb_gf_rgpd_white {
+  font-size:12px !important;
+  color: #e7e7e7 !important;
+}
+
+.nb_gf_rgpd_black {
+  font-size:12px !important;
+  color: #4d4d4d !important;
+}
+
+.nb_gf_rgpd_black strong {
+  color: #4d4d4d !important;
+}
+
+.nb_gf_rgpd_white strong {
+  color: #e7e7e7 !important;
+}
+
+.nb-pre-ggf {
+    background-color: #fff;
+    padding: 4%;
+    margin-bottom: -20px;
+    border-radius: : 5px;
+    font-size: 28px;
+    line-height: 1.25;
+    font-family: Oswald;
+}
+
+#label_10_15_1 {
+	margin-bottom: 0px;
+}
+
+#choice_10_15_1 {
+	margin-bottom: 5px;
+}
+
+.gform_wrapper .gform_page_footer .button.gform_previous_button,
+.gform_wrapper .gform_page_footer .button.gform_next_button {
+	border-radius: 0;
+}
+
+.gf-subscribe_wrapper,
+.gf-checklist_wrapper,
+.gf-subscribe-wp_wrapper,
+.gf-lm-optimizar-inline_wrapper {
+	border: 1px solid #01C97D;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+
+.gform_wrapper.gform_wrapper {
+	margin-bottom: 30px;
+}
+
+.gf-subscribe-wp.gf-subscribe-wp .gform_button.gform_button {
+	width: 100%;
+}
+
+.gf-subscribe-wp .gform_footer {
+	text-align: center;
+}
+
+/* Comentarios */
+.coletilla_legal_comentarios {
+	font-size: 12px;
+}
+
+.comment-form-cookies-consent,
+.akismet_comment_form_privacy_notice {
+	display: none;
+}
+
+.archive-pagination {
+	margin: -50px auto 50px;
+}
+
+.blog .search-form,
+.post-type-archive-newsletter .search-form {
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto 50px;
+}
+
+.blog .search-form-submit,
+.post-type-archive-newsletter .search-form-submit {
+    margin-top: 0 !important;
+    border-radius: 0;
+}
+
+@media only screen and (max-width: 640px) {
+	.menu-toggle {
+		padding: 20px;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.wp-custom-logo .site-container .title-area {
+		width: 200px;
+	}
+	
+	.menu-toggle {
+		margin-top: 5px;
+	}
+}
