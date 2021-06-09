@@ -1,0 +1,1 @@
+.elementor-text-editor p:last-child, .textwidget p:last-child { margin-bottom:0px;}
