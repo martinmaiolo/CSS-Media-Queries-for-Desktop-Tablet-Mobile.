@@ -1,0 +1,11 @@
+Elementor is <br> The Best  <br> <span class="highlight">WordPress Builder</span>
+
+<! --Please note here the tag "br" is given to add line breaks you can avoid that if you need your heading in one line -->
+
+.highlight {
+  background: linear-gradient(180deg,white 50%, yellow 50%);
+}
+
+<!--Use this if using HTML Block -->
+
+<style>
