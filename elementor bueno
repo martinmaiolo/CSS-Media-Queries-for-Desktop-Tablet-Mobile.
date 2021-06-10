@@ -1,0 +1,274 @@
+/* change text highlight color */
+
+::selection {
+  background: #f36367; 
+  color: #fff;
+/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #f36367;
+  color: #fff;
+ /* Gecko Browsers */
+}
+
+
+
+/* text link style */
+
+a{
+color: #f23138;
+}
+
+a:hover{
+color: #f8a1a4;
+}
+
+
+/* Vertical Navigation line height fix*/
+
+.elementor-331 .elementor-element.elementor-element-ea50140 .elementor-nav-menu--main .elementor-item {
+    color: #ffffff;
+    line-height: inherit;
+}
+
+
+
+/*add space to blog posts */
+.wp-block-image {
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+
+
+
+
+/* change blog post comments button */
+
+.submit {
+color: #000;
+border: 3px solid #000;
+}
+
+.submit:hover {
+color: #fff;
+background-color: #000;
+}
+
+
+.submit:focus {
+color: #fff;
+background-color: #000;
+}
+
+
+
+/* change blog post comments section */
+
+
+
+
+input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], select,
+input[type=url], 
+textarea {
+    border: 3px solid #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* comment styling */
+
+.comment-meta{
+    font-size: 16px;
+	  font-weight: 300;
+    color: #12121b;
+    letter-spacing: 1px;
+    line-height: 1.4em;
+    font-family: roboto, sans-serif !important;
+	text-transform: none;
+}
+
+.comment-content{
+    font-size: 16px;
+	  font-weight: 300;
+    color: #12121b;
+    letter-spacing: 1px;
+    line-height: 1.4em;
+    font-family: roboto, sans-serif !important;
+	text-transform: none;
+}
+
+
+
+
+
+
+
+
+
+/* Desktop and tablet font styles */
+
+
+@media screen and (min-width: 701px) {
+
+
+h1{ 
+font-size: 58px;
+color: #f36367;
+text-transform: uppercase;
+font-weight: normal;
+letter-spacing: 1.3px;
+line-height: 1.2em;
+font-family: 'Triester Sans', sans-serif;
+margin-bottom: 50px;
+margin-top: 50px;
+}
+
+
+h2,h3,h4{ 
+font-size: 36px;
+color: #f36367;
+text-transform: uppercase;
+font-weight: normal;
+letter-spacing: 1.3px;
+line-height: 1.2em;
+font-family: 'Triester Sans', sans-serif;
+margin-bottom: 50px;
+margin-top: 50px;
+}
+
+	
+blockquote p{ 
+font-size: 26px;
+font-family: 'Dosis', sans-serif;
+font-weight: normal;
+color: #f36367;
+letter-spacing: 1px;
+line-height: 1.4em;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+	
+	
+/* List Formatting
+	
+ul, ol{ 
+font-size: 26px;
+font-family: 'Dosis', sans-serif;
+text-transform: uppercase;
+font-weight: normal;
+color: #12121b;
+letter-spacing: 1px;
+line-height: .5em;
+padding-bottom: 20px;
+}
+
+List formatting End*/
+
+	
+ul,ol{
+margin-bottom: 20px;
+}
+
+
+
+p{
+font-size: 19px;
+line-height: 30px;
+color: inherit;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+	
+	
+	
+	
+}
+
+
+
+
+
+/* mobile font styles */
+
+
+@media screen and (max-width: 700px) {
+
+h1{ 
+font-size: 37px;
+color: #f36367;
+text-transform: uppercase;
+font-weight: normal;
+letter-spacing: 1.3px;
+line-height: 1.2em;
+font-family: 'Triester Sans', sans-serif;
+margin-bottom: 40px;
+margin-top: 40px;
+}
+
+
+h2,h3,h4{ 
+font-size: 22px;
+color: #f36367;
+text-transform: uppercase;
+font-weight: normal;
+letter-spacing: 1.3px;
+line-height: 1.2em;
+font-family: 'Triester Sans', sans-serif;
+margin-bottom: 40px;
+margin-top: 40px;
+}
+
+
+blockquote p{ 
+font-size: 19px;
+font-family: 'Dosis', sans-serif;
+font-weight: normal;
+color: #f36367;
+letter-spacing: 1px;
+line-height: 1.4em;
+padding-bottom:20px;
+padding-top:20px;
+}
+	
+/* List Formatting
+ 
+li, ol{ 
+font-size: 17px;
+font-family: 'Dosis', sans-serif;
+text-transform: uppercase;
+font-weight: normal;
+color: #12121b;
+line-height: .5em;
+letter-spacing: 1px;
+padding-bottom: 20px;
+padding-top:20px;
+}
+	
+List Formatting End */
+
+ul,ol{
+margin-bottom: 20px;
+}
+	
+
+p{
+font-size: 16px;
+line-height: 26px;
+color: inherit;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+	
+
+	
+}
