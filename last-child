@@ -1,1 +1,5 @@
 .elementor-text-editor p:last-child, .textwidget p:last-child { margin-bottom:0px;}
+
+body.elementor-page-27047 p:last-child {
+    margin-bottom: 0;
+}
