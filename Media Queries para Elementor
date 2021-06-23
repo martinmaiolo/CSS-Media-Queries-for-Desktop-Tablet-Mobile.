@@ -1,0 +1,21 @@
+.elementor-widget-text-editor p:last-child, .textwidget p:last-child { margin-bottom:0px;}
+
+https://matthewhorne.me/defer-async-wordpress-scripts/
+
+@media (min-width:1025px) {
+	.elementor-hidden-desktop {
+		display:none;
+	}
+}
+@media (min-width:768px) and (max-width:1024px) {
+	.elementor-hidden-tablet {
+		display: none;
+	}
+}
+@media (max-width:767px) {
+	.elementor-hidden-phone {
+		display: none;
+	}
+}
+
+elementor-hidden-tablet elementor-hidden-phone
