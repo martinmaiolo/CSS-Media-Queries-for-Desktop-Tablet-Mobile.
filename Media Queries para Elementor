@@ -23,3 +23,16 @@ elementor-hidden-tablet elementor-hidden-phone
 _________________________________________
 
 https://www.buildthatwebsite.com/elementor-media-query
+
+
+Prepend your code with 
+
+body[data-elementor-device-mode="desktop"], 
+
+body[data-elementor-device-mode="tablet"], or 
+
+ody[data-elementor-device-mode="mobile"]. So you put a space after and then your code. Something like:
+
+body[data-elementor-device-mode="tablet"] .my-class {
+color: red;
+}
