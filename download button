@@ -1,0 +1,20 @@
+https://ycanfix.com/how-to-create-a-direct-download-button-in-elementor/
+
+https://www.youtube.com/watch?v=bvV0mAcox5c
+
+Step 1) Add the ID to the button:
+
+<button id="btn-btn"> Download PDF </button>
+
+Step 2) Add download | Name of the file without any space as mentioned on the screen:
+
+Step 3) Add the Script code:
+
+<script>
+ 
+document.querySelector("#btn-btn").addEventListener("click", function(){
+  document.querySelector("#btn-btn  .elementor-button-text").innerHTML = "Pdf is Downloading";
+  document.querySelector("#btn-btn").style.display = "inline-block";
+});
+  
+ </script>
