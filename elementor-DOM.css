@@ -1,0 +1,54 @@
+/*Elementor V3+ Optimized DOM Output **Recommended to use "some-custom-class-name" for your sections***/
+/*Add To Section Custom CSS*/
+/*selector.some-custom-class-name .elementor-container {
+    flex-wrap: wrap;
+ justify-content: center; 
+}*/
+
+/* The Boss CSS Rule */
+/*Add To Section Custom CSS*/
+selector .elementor-container .elementor-row {
+     flex-wrap: wrap;
+     /*justify-content: center; */
+}
+
+/* Responsive Columns Alignment - Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+	selector .elementor-container .elementor-row {
+		justify-content: end;
+	}
+}
+/* Responsive Columns Alignment - Mobile */
+@media (max-width: 768px) {
+	selector .elementor-container .elementor-row {
+		justify-content: end;
+	}
+}
+
+/*Custom Column Widths*/
+/*Add To Column Custom CSS*/
+selector{
+    width:100%;
+
+}
+/* Media Query - Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+	selector {
+		width: 60%; /* or whatever you like */
+	}
+}
+/* Media Query - Mobile */
+@media (max-width: 767px) {
+	selector {
+		width: 100%; /* or whatever you like */
+	}
+}
+/* Merged Media Query - Tablet and Mobile */
+/*Use if columns width is same for both devices*/
+/*
+@media (min-width: 1px) and (max-width: 1024px) {
+	selector {
+		width: 100%;
+	}
+}
+*/
