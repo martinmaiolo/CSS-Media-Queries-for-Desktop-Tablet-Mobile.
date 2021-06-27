@@ -1,0 +1,40 @@
+<script>
+/*
+  This is the Javascript for customizing Elementor Pro Image Carousel Widget.
+  You still need the CSS code for this to work. This code goes into an HTML
+  Widget that you put under the Carousel Widget.
+  
+  Youtube tutorial here
+  https://www.youtube.com/watch?v=t3mxGYnVZ8k
+  
+  Don't forget to checkout my Fiverr account for Gigs related to WordPress
+  and Elementor -- https://fiverr.com/kidino
+*/
+
+// Update your slider URL here. The first URL correspond to
+// the first slider and so on.
+var url = [
+	'https://elementor.com',
+	'https://wordpress.org',
+	'https://wordpress.com',
+	'https://uaelementor.com',
+	'https://essential-addons.com/',
+	'https://www.fiverr.com/kidino',
+	'https://www.youtube.com/watch?v=jVrUNKz1HE8'
+];
+
+// you need to update the #my-slider with 
+// the ID you set for your Carousel Widget
+var slides = document.querySelectorAll("#my-slider .swiper-slide");
+
+var redirect_url = function() {
+    var index = this.getAttribute("data-swiper-slide-index");
+	window.location.href = url[ parseInt(index) ];
+};
+
+for (var i = 0; i < slides.length; i++) {
+    slides[i].addEventListener('click', redirect_url, false);
+}
+</script>
+@martinmaiolo
+ 
