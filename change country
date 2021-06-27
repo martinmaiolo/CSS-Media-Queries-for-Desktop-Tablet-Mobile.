@@ -1,0 +1,8 @@
+	<script>
+		let countryCode = "";
+		if(window.location.host === "www.wavenet.com"){
+			if((countryCode === "US") || (countryCode === "CA") || (countryCode === "UK")){
+				window.location.href = "https://en.wavenet.com"
+			}
+		}
+	</script>
