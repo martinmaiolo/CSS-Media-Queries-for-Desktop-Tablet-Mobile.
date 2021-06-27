@@ -1,0 +1,26 @@
+selector.custom-list-1 .elementor-icon-list-item:nth-child(3){
+    display: none;
+}
+
+selector.custom-list-1 .elementor-icon-list-item:nth-child(2){
+    cursor: pointer
+}
+
+<script>
+
+________________________________________________________________________
+
+
+jQuery(document).ready(function( $ ) {
+
+  $('.custom-list-1 .elementor-icon-list-item:nth-child(2)').on('click', function() {
+    $(this).hide();
+  });
+
+  $('.custom-list-1 .elementor-icon-list-item:nth-child(2)').on('click', function() {
+    $('.custom-list-1 .elementor-icon-list-item:nth-child(3)').show();
+  });
+
+});
+
+</script>
