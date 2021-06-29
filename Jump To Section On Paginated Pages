@@ -1,0 +1,8 @@
+<script>jQuery('div.elementor-widget-posts').each(function(_, widget) {
+  // Add the id to the pagination URL
+  jQuery('a.page-numbers', widget).map(function(_, link) {
+    jQuery(link).attr('href', jQuery(link).attr('href') + '#top-posts');
+  });
+});</script>
+
+https://www.youtube.com/watch?v=FM2hMpIgplk
