@@ -1,0 +1,100 @@
+<style>@font-face {
+	font-family: "visymo";
+	src: url("/build/fonts/visymo/visymo.eot?v4");
+	src: url("/build/fonts/visymo/visymo.eot?v4#iefix") format("embedded-opentype"), url("/build/fonts/visymo/visymo.woff2?v4") format("woff2"), url("/build/fonts/visymo/visymo.woff?v4") format("woff"), url("/build/fonts/visymo/visymo.ttf?v4") format("truetype"), url("/build/fonts/visymo/visymo.svg?v4#visymo") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	vertical-align: top
+}
+
+html {
+	background: #fff;
+	font-size: 62.5%;
+	text-align: left;
+	-webkit-text-size-adjust: none
+}
+
+body {
+	background-color: #fff;
+	border-top: 4px solid #FF4D4E;
+	border-top: .4rem solid #FF4D4E;
+	font: 400 15px/15px if false, droidarabickufi, arial, helvetica, sans-serif, arial, helvetica, sans-serif;
+	font: 400 1.5rem/1.5rem if false, droidarabickufi, arial, helvetica, sans-serif, arial, helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%
+}
+
+img {
+	border: 0;
+	display: block;
+	font-size: 1px;
+	font-size: .1rem;
+	overflow: hidden
+}
+
+input,
+button {
+	-webkit-appearance: none;
+	background-image: none;
+	-webkit-border-radius: 0;
+	border-radius: 0
+}
+
+input::-ms-clear {
+	display: none
+}
+
+button {
+	-webkit-appearance: none;
+	border: 0;
+	border-collapse: separate;
+	cursor: pointer;
+	outline: 0
+}
+
+button::-moz-focus-inner {
+	border: 0;
+	padding: 0
+}
+
+ul {
+	list-style: none
+}
+
+div {
+	display: block
+}
+
+a {
+	color: #2800C8;
+	text-decoration: none
+}
+
+.vsi:before {
+	display: block;
+	font-family: visymo;
+	-webkit-font-smoothing: antialiased;
+	font-weight: 400;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: auto
+}
+
+.clear {
+	clear: both
+}
