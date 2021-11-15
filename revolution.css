@@ -1,0 +1,21 @@
+@media only screen and (max-width: 767px) {
+    .rev_slider_wrapper.fullwidthbanner-container {
+        height: 264px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .rev_slider_wrapper.fullwidthbanner-container {
+        height: 500px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .rev_slider_wrapper.fullwidthbanner-container {
+        height: 600px;
+    }
+}
+@media only screen and (min-width: 1240px) {
+    .rev_slider_wrapper.fullwidthbanner-container {
+        height: 767px;
+    }
+}
+
